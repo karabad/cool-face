@@ -1,0 +1,48 @@
+<svg class="background">
+  <text id="dateLabel" />
+  <!-- battery section -->
+  <text id="batteryLabel" />
+  <rect id="batteryBorder1" x="250" y="20" width="40" height="21" fill="green" />
+  <rect id="batteryBorder2" x="290" y="27" width="5" height="7" fill="green" />
+  <rect x="252" y="22" width="36" height="17" fill="black" />
+  <rect id="batteryIndicator" x="252" y="22" width="36" height="17" fill="green" />
+  <!-- end of battery section -->
+  
+  <line id="chargerBorder1" x1="260" y1="30" x2="275" y2="30" fill="gray" stroke-width="2" />
+  <arc id="chargerBorder2" x="270" y="25" width="15" height="11" fill="gray"
+    arc-width="2" start-angle="180" sweep-angle="180" />
+
+  <text id="timeLabel" />
+  
+  <text id="goalName" />
+  <rect id="goalDay7" x="30" y="240" width="10" height="20" fill="gray" />
+  <rect id="goalDayProgress7" x="32" y="242" width="6" height="16" fill="black" />
+  <rect id="goalDay6" x="45" y="240" width="10" height="20" fill="gray" />
+  <rect id="goalDayProgress6" x="47" y="242" width="6" height="16" fill="black" />
+  <rect id="goalDay5" x="60" y="240" width="10" height="20" fill="gray" />
+  <rect id="goalDayProgress5" x="62" y="242" width="6" height="16" fill="black" />
+  <rect id="goalDay4" x="75" y="240" width="10" height="20" fill="gray" />
+  <rect id="goalDayProgress4" x="77" y="242" width="6" height="16" fill="black" />
+  <rect id="goalDay3" x="90" y="240" width="10" height="20" fill="gray" />
+  <rect id="goalDayProgress3" x="92" y="242" width="6" height="16" fill="black" />
+  <rect id="goalDay2" x="105" y="240" width="10" height="20" fill="gray" />
+  <rect id="goalDayProgress2" x="107" y="242" width="6" height="16" fill="black" />
+  <rect id="goalDay1" x="120" y="240" width="10" height="20" fill="gray" />
+  <rect id="goalDayProgress1" x="122" y="242" width="6" height="16" fill="black" />
+  <text id="goalDayLabel7" class="goalDayLabels" />
+  <text id="goalDayLabel6" class="goalDayLabels" />
+  <text id="goalDayLabel5" class="goalDayLabels" />
+  <text id="goalDayLabel4" class="goalDayLabels" />
+  <text id="goalDayLabel3" class="goalDayLabels" />
+  <text id="goalDayLabel2" class="goalDayLabels" />
+  <text id="goalDayLabel1" class="goalDayLabels" />
+
+  <image id="sunrise" href="SunriseSmall.png"/>
+  <text id="sunriseLabel" />
+  <image id="sunset" href="SunsetSmall.png"/>
+  <text id="sunsetLabel" />
+  
+  <image id="heart" href="HeartSmall.png"/>
+  <text id="heartRateLabel"/>
+
+</svg>

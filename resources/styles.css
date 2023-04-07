@@ -1,0 +1,143 @@
+.background {
+  viewport-fill: black;
+}
+
+#timeLabel {
+  font-size: 140;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%+40;
+  fill: gray;
+}
+
+#dateLabel {
+  font-size: 22;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 30%;
+  y: 0%+40;
+  fill: gray;
+}
+
+#batteryLabel {
+  font-size: 20;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: end;
+  x: 247;
+  y: 37;
+  fill: gray;
+}
+
+
+#sunrise {
+  x: 30;
+  y: 85%;
+  width: 40;
+  height: 23;
+}
+
+#sunriseLabel {
+  font-size: 23;
+  font-family: System-Bold;
+  text-length: 5;
+  text-anchor: start;
+  x: 75;
+  y: 85%+20;
+  fill: gray;
+}
+
+#sunset {
+  x: 270;
+  y: 85%;
+  width: 40;
+  height: 23;
+  /*position: absolute;
+  clip: rect(0, 10px, 20px, 0);*/
+}
+
+#sunsetLabel {
+  font-size: 23;
+  font-family: System-Bold;
+  text-length: 5;
+  text-anchor: end;
+  x: 265;
+  y: 85%+20;
+  fill: gray;
+}
+
+#goalName {
+  font-size: 20;
+  font-family: System-Bold;
+  text-length: 10;
+  text-anchor: start;
+  x: 30;
+  y: 235;
+  fill: gray;
+}
+
+.goalDayLabels {
+  font-size: 12;
+  font-family: System-Bold;
+  text-length: 1;
+  text-anchor: middle;
+  fill: gray;
+}
+
+#goalDayLabel7 {
+  x: 35;
+  y: 272;
+}
+
+#goalDayLabel6 {
+  x: 50;
+  y: 272;
+}
+
+#goalDayLabel5 {
+  x: 65;
+  y: 272;
+}
+
+#goalDayLabel4 {
+  x: 80;
+  y: 272;
+}
+
+#goalDayLabel3 {
+  x: 95;
+  y: 272;
+}
+
+#goalDayLabel2 {
+  x: 110;
+  y: 272;
+}
+
+#goalDayLabel1 {
+  x: 125;
+  y: 272;
+}
+
+#heart {
+  x: 211;
+  y: 237;
+  width: 25;
+  height: 24;
+}
+
+#heartRateLabel {
+  font-size: 23;
+  font-family: System-Bold;
+  text-length: 5;
+  text-anchor: start;
+  x: 245;
+  y: 255;
+  fill: gray;
+}
+
+
+
